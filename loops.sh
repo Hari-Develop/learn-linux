@@ -1,6 +1,4 @@
-a=13
-while [ $a -ge 0 ]; do
-  echo "i love you "
-  a=$(($a-1))
-  sleep 2
+for number in 1 2 3 4 5 6 7 ; do
+  echo print number - $number
+  sleep 1
 done
